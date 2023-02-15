@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice task</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="text-center bg-green-300">
+    <header>
+        <h1 class="mb-20 mt-8 text-5xl font-bold text-lime-700">Discount<span class="text-red-500">!!!</span> Discount<span class="text-red-500">!!!</span></h1>
+        <h2 class="mb-20 mt-3 text-5xl font-semibold text-lime-900">All product discount<span class="text-red-500">!!!</span>
+        </h2>
+    </header>
+    <main>
+        <section>
+            <h1 class="text-white font-semibold text-3xl">Price:<span id="price">1540</span></h1>
+            <p class="mb-3 text-green-900">fill in the coupon field and enjoy 30% discount</p>
+            <P class="mb-4 text-lime-700 text-2xl">Coupon code: <input id="coupon-field" class="rounded-md p-2" type="text" placeholder="DISC30"></P>
+            <button id="btn-apply" class="bg-orange-700 px-8 py-3 rounded-xl font-semibold text-white">Apply</button>
+            <p class="font-semibold text-3xl text-white mt-5">Please Pay: <span id="please-pay">0</span></p>
+        </section>
+    </main>
+
+    <script src="js/apply.js"></script>
+</body>
+</html>
